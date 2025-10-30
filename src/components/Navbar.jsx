@@ -9,7 +9,6 @@ export default function Navbar() {
     { href: '/', label: 'Inicio' },
     { href: '/sobre', label: 'Sobre Nosotros' },
     { href: '/servicios', label: 'Servicios' },
-    { href: '/sectores', label: 'Sectores' },
     { href: '/contacto', label: 'Contacto' },
   ]), [])
 
@@ -25,8 +24,11 @@ export default function Navbar() {
     <header className="navbar" aria-label="Barra de navegación">
       <div className="navbar-inner">
         <Link to="/" className="brand" aria-label="Ir al inicio">
-          <span className="logo-dot" aria-hidden="true"></span>
-          <span>Mantenimiento Estructuras De La Rosa</span>
+          <img src="/images/rouse.svg" alt="Logo rosa De la Rosa" className="logo-rose" width="28" height="28" />
+          <span className="brand-text">
+            <span className="brand-name">De la Rosa</span>
+            <span className="brand-sub">Mantenimiento e Inversiones</span>
+          </span>
         </Link>
         <nav className="nav-links" aria-label="Enlaces principales">
           {links.map(l => (
@@ -44,8 +46,8 @@ export default function Navbar() {
         </button>
       </div>
       {open && (
-        <div style={{ padding: '0 40px' }} role="dialog" aria-label="Menú móvil">
-          <div className="card" style={{ margin: '12px 0' }}>
+        <div style={{ padding: '0 40px 16px' }} role="dialog" aria-label="Menú móvil">
+          <div className="card" style={{ margin: '12px 0 0' }}>
             <div className="grid" style={{ gap: 12 }}>
               {links.map(l => (
                 <Link 

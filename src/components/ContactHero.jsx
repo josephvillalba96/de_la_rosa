@@ -2,10 +2,10 @@ export default function ContactHero() {
   return (
     <section className="subhero contact-hero reveal">
       <div className="container subhero-inner">
-        <h1>Contacto</h1>
+        <h1>Conversemos sobre tu próximo proyecto</h1>
         <p>
-          Estamos listos para impulsar tu proyecto. Contáctanos y recibe una cotización
-          personalizada para tus necesidades en construcción e ingeniería civil.
+          ¿Necesitas soluciones en ingeniería civil, estructuras metálicas o gestión técnica integral?
+          Estamos listos para escucharte, asesorarte y sumar a tu objetivo. ¡Concretemos juntos la mejor alianza constructiva!
         </p>
       </div>
     </section>

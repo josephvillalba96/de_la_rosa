@@ -8,8 +8,8 @@ export default function CTA() {
           ingeniería civil, fabricación y montaje de estructuras metálicas.
         </p>
         <div className="cta-actions">
-          <a className="btn" href="#contacto">Contáctanos</a>
-          <a className="btn secondary" href="#servicios">Ver servicios</a>
+          <a className="btn cta-black" href="#contacto">Contáctanos</a>
+          <a className="btn cta-outline" href="#servicios">Ver servicios</a>
         </div>
       </div>
     </section>

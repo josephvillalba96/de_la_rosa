@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 96" role="img" aria-label="Montaje de estructuras">
+  <rect width="128" height="96" fill="#e6eef8"/>
+  <g stroke="#0f172a" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- torre grúa -->
+    <path d="M20 82V18l18-8 18 8v64"/>
+    <path d="M20 34h36"/>
+    <path d="M20 50h36"/>
+    <path d="M20 66h36"/>
+    <!-- pluma -->
+    <path d="M56 18h40l-18 12"/>
+    <!-- cable -->
+    <path d="M78 30v22"/>
+    <!-- viga colgante -->
+    <rect x="66" y="52" width="24" height="8" fill="#b91c1c" stroke="#b91c1c"/>
+    <!-- suelo -->
+    <path d="M8 82h112"/>
+  </g>
+</svg>
